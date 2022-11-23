@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516282;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+/*navbar*/
+.top-nav {
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: white;
+}
+
+/**el icono será en el medio del texto**/
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+
+/**estilo de los iconos**/
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgb(245, 245, 214, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+/**:hover se utiliza para seleccionar y dar estilo al pasar con el ratón por encima de un elemento**/
+.social-links a:hover {
+    background-color: white;
+    color: #ff4d29;
+}
